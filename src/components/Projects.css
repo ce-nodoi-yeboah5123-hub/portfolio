@@ -1,0 +1,175 @@
+.projects__filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.projects__filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  transition: all 0.25s;
+  background: transparent;
+}
+.projects__filter:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+}
+.projects__filter--active {
+  color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  background: rgba(79, 142, 247, 0.08);
+}
+.projects__filter-count {
+  font-size: 0.6rem;
+  background: rgba(79, 142, 247, 0.15);
+  color: var(--accent-blue);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.project-card--hovered {
+  border-color: var(--accent);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.project-card__thumb {
+  height: 160px;
+  background: linear-gradient(135deg, #090d1a 0%, #111829 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.project-card__thumb::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--accent) 12%, transparent) 0%, transparent 70%);
+}
+.project-card__icon {
+  font-size: 3.5rem;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 0 20px var(--accent));
+  animation: float 4s ease-in-out infinite;
+}
+.project-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, var(--bg-card) 100%);
+}
+.project-card__category {
+  position: absolute;
+  top: 0.75rem; right: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+}
+
+.project-card__body {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.project-card__title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+}
+.project-card__desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.project-card__tag {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+.project-card__link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  transition: color 0.3s;
+}
+.project-card__link:hover { color: var(--text-primary); }
+.project-card__link--demo { color: var(--accent-blue); }
+.project-card__link--demo:hover { color: var(--accent-cyan); }
+
+.project-card__glow {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.35s ease;
+  transform-origin: left;
+}
+.project-card--hovered .project-card__glow { transform: scaleX(1); }
+
+@media (max-width: 1000px) { .projects__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .projects__grid { grid-template-columns: 1fr; } }
