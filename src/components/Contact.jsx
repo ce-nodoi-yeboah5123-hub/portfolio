@@ -31,10 +31,10 @@ export default function Contact() {
   };
 
   const CONTACTS = [
-    { icon: '✉', label: 'Email', value: 'nanayaw@email.com', href: 'mailto:nanayaw@email.com' },
-    { icon: '📞', label: 'Phone', value: '+233 XX XXX XXXX', href: 'tel:+233XXXXXXXX' },
+    { icon: '✉', label: 'Email', value: 'nanayawodoiyeboah@gmail.com', href: 'mailto:nanayawodoiyeboah@gmail.com' },
+    { icon: '📞', label: 'Phone', value: '+233 50 367 0830', href: 'tel:+233503670830' },
     { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/nanayaw', href: 'https://linkedin.com' },
-    { icon: '🐙', label: 'GitHub', value: 'github.com/nanayaw', href: 'https://github.com' },
+    { icon: '🐙', label: 'GitHub', value: 'https://github.com/ce-nodoi-yeboah5123-hub', href: 'https://github.com/ce-nodoi-yeboah5123-hub' },
   ];
 
   return (
