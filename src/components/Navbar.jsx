@@ -53,7 +53,7 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a href="/cv.pdf" download className="navbar__cta">
+            <a href="/NanaYaw_odoiyeboah_cv.pdf" download className="navbar__cta">
               Download CV
             </a>
           </li>
