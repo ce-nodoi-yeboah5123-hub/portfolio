@@ -8,9 +8,9 @@ const SKILLS = [
     color: '#2554e0',
     items: [
       { name: 'PHP', level: 85 },
-      { name: 'JavaScript', level: 78 },
-      { name: 'HTML & CSS', level: 88 },
-      { name: 'Bootstrap', level: 85 },
+      { name: 'JavaScript', level: 60 },
+      { name: 'HTML & CSS', level: 90 },
+      { name: 'Bootstrap', level: 90 },
     ],
   },
   {
@@ -31,6 +31,8 @@ const SKILLS = [
       { name: 'Git & GitHub', level: 80 },
       { name: 'XAMPP / WAMP', level: 85 },
       { name: 'VS Code', level: 88 },
+      { name: 'Linux / Ubuntu', level: 70 }
+      
     ],
   },
   {
@@ -110,7 +112,7 @@ export default function Skills() {
           Technical <em>expertise</em>
         </h2>
         <p className="section-subtitle">
-          The core toolkit I use to build full-stack web applications.
+          A diverse toolkit spanning multiple domains of software and hardware engineering.
         </p>
 
         <div className="skills__grid">

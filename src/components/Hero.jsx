@@ -3,8 +3,10 @@ import './Hero.css';
 
 const TITLES = [
   'Software Engineer',
-  'Full-Stack Web Developer',
-  'PHP & MySQL Developer',
+  'DevOps Engineer',
+  'Full-Stack Developer',
+  'Embedded Systems Developer',
+  'PHP & MySQL Developer'
 ];
 
 export default function Hero() {

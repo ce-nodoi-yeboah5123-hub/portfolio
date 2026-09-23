@@ -15,9 +15,10 @@ export default function Footer() {
           </div>
           <div className="footer__links">
             {[
-              { label: 'GitHub', href: 'https://github.com/ce-nodoi-yeboah5123-hub' },
+              { label: 'GitHub', href: 'https://github.com/nyodoi-dev' },
               { label: 'LinkedIn', href: 'https://linkedin.com' },
               { label: 'Email', href: 'mailto:nanayawodoiyeboah@gmail.com' },
+              { label: 'Phone', href: 'tel:+233503670830' }
             ].map(({ label, href }) => (
               <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="footer__link">
                 {label}

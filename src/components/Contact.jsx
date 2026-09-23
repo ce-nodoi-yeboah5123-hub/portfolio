@@ -33,8 +33,8 @@ export default function Contact() {
   const CONTACTS = [
     { icon: '✉', label: 'Email', value: 'nanayawodoiyeboah@gmail.com', href: 'mailto:nanayawodoiyeboah@gmail.com' },
     { icon: '📞', label: 'Phone', value: '+233 50 367 0830', href: 'tel:+233503670830' },
-    { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/nanayaw', href: 'https://linkedin.com' },
-    { icon: '🐙', label: 'GitHub', value: 'https://github.com/ce-nodoi-yeboah5123-hub', href: 'https://github.com/ce-nodoi-yeboah5123-hub' },
+    { icon: '💼', label: 'LinkedIn', value: 'https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bjpa5GywkSg%2B2tY42cNh02w%3D%3D', href: 'https://linkedin.com' },
+    { icon: '🐙', label: 'GitHub', value: 'https://github.com/nyodoi-dev', href: 'https://github.com/nyodoi-dev' },
   ];
 
   return (
@@ -55,9 +55,9 @@ export default function Contact() {
         <div className="contact__grid">
           <div className="contact__info">
             <p className="contact__intro">
-              Whether you have a project idea, an internship opportunity, or just want to
+              Whether you have an exciting project idea, an internship opportunity, or just want to
               talk tech — I'd love to hear from you. I'm actively seeking opportunities to apply
-              my skills in full-stack web development.
+              my skills in embedded systems, web development, and VR.
             </p>
 
             <div className="contact__links">
