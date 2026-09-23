@@ -145,7 +145,7 @@
 }
 .about__card-row {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1.6;
 }
 .about__card-key { color: #c792ea; }

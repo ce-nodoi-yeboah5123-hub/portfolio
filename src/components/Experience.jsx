@@ -13,6 +13,16 @@ const TIMELINE = [
     color: '#4f8ef7',
   },
   {
+    type: 'internship',
+    year: '2026',
+    title: 'Volunteer Internship At AmaliTech',
+    org: 'AmaliTech · Accra, Ghana',
+    desc: 'Participated in a volunteer internship program at AmaliTech, contributing to real-world software development projects and gaining hands-on experience in DevOps and collaborative coding practices.',
+    tags: ['DevOps Engineering', 'Bash', 'Docker', 'CI/CD'],
+    icon: '💻',
+    color: '#346026',
+  },
+  {
     type: 'project',
     year: '2024',
     title: 'VR Development Projects',
