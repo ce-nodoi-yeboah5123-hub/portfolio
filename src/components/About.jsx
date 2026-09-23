@@ -56,10 +56,11 @@ export default function About() {
           <div className="about__visual">
             <div className="about__img-frame">
               <div className="about__img-placeholder">
-                <div className="about__img-initials">NY</div>
-                <div className="about__img-caption">
-                  <span className="about__img-caption-mono">// Replace with your photo</span>
-                </div>
+                <img
+                  src="/nana.jpg"
+                  alt="Nana Yaw"
+                  className="about__photo"
+                />
               </div>
               <div className="about__img-border" />
               <div className="about__img-corner about__img-corner--tl" />

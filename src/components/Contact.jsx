@@ -33,7 +33,7 @@ export default function Contact() {
   const CONTACTS = [
     { icon: '✉', label: 'Email', value: 'nanayawodoiyeboah@gmail.com', href: 'mailto:nanayawodoiyeboah@gmail.com' },
     { icon: '📞', label: 'Phone', value: '+233 50 367 0830', href: 'tel:+233503670830' },
-    { icon: '💼', label: 'LinkedIn', value: 'https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bjpa5GywkSg%2B2tY42cNh02w%3D%3D', href: 'https://linkedin.com' },
+    { icon: '💼', label: 'LinkedIn', value: 'https://www.linkedin.com/in/nana-yaw-odoi-yeboah-350118426', href: 'https://www.linkedin.com/in/nana-yaw-odoi-yeboah-350118426' },
     { icon: '🐙', label: 'GitHub', value: 'https://github.com/nyodoi-dev', href: 'https://github.com/nyodoi-dev' },
   ];
 

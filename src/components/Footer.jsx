@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="footer__links">
             {[
               { label: 'GitHub', href: 'https://github.com/nyodoi-dev' },
-              { label: 'LinkedIn', href: 'https://linkedin.com' },
+              { label: 'LinkedIn', href: 'https://www.linkedin.com/in/nana-yaw-odoi-yeboah-350118426' },
               { label: 'Email', href: 'mailto:nanayawodoiyeboah@gmail.com' },
               { label: 'Phone', href: 'tel:+233503670830' }
             ].map(({ label, href }) => (
