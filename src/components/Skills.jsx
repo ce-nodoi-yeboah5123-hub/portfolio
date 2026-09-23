@@ -33,6 +33,36 @@ const SKILLS = [
       { name: 'VS Code', level: 88 },
     ],
   },
+  {
+    category: 'Python & ML',
+    icon: '🐍',
+    color: '#16a34a',
+    items: [
+      { name: 'Python', level: 78 },
+      { name: 'Flask', level: 80 },
+      { name: 'YOLO / Computer Vision', level: 65 },
+    ],
+  },
+  {
+    category: 'Backend & Cloud',
+    icon: '☁',
+    color: '#ea580c',
+    items: [
+      { name: 'Node.js / Express', level: 75 },
+      { name: 'Supabase', level: 78 },
+      { name: 'PostgreSQL', level: 75 },
+    ],
+  },
+  {
+    category: 'VR & Embedded',
+    icon: '🕶',
+    color: '#9333ea',
+    items: [
+      { name: 'A-Frame / WebXR', level: 70 },
+      { name: '8051 Assembly', level: 65 },
+      { name: 'Proteus', level: 65 },
+    ],
+  },
 ];
 
 function SkillBar({ name, level, color, animate }) {

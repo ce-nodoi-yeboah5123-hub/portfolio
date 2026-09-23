@@ -4,23 +4,83 @@ import './Projects.css';
 const PROJECTS = [
   {
     id: 1,
+    title: 'CocoGuard',
+    category: 'ML / Computer Vision',
+    description: 'Cocoa disease detection using computer vision and YOLO, served through a Flask web application.',
+    tech: ['Python', 'Flask', 'YOLO', 'Machine Learning'],
+    color: '#16a34a',
+    icon: '🌱',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 2,
+    title: 'KwanPa',
+    category: 'Web',
+    description: 'A transport discovery platform helping users navigate public transportation in Accra — combining trotro routes, stops, traffic info, and ride-hailing options.',
+    tech: ['Flask', 'JavaScript', 'SQL', 'APIs'],
+    color: '#0891b2',
+    icon: '🚌',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 3,
+    title: 'Hostel Booking System',
+    category: 'Web',
+    description: 'A hostel booking platform with online booking, payment verification, administrative approval, and SMS notifications.',
+    tech: ['Flask', 'SQL', 'JavaScript', 'Arkesel SMS API'],
+    color: '#dc2626',
+    icon: '🏠',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 4,
+    title: 'E-Football League',
+    category: 'Web',
+    description: 'A competitive eFootball ranking platform where players submit match results, provide screenshot proof, and compete on a shared leaderboard.',
+    tech: ['JavaScript', 'Supabase', 'PostgreSQL'],
+    color: '#ea580c',
+    icon: '⚽',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 5,
+    title: 'School Management System',
+    category: 'Web',
+    description: 'A student, teacher, results, and academic progression management system for private schools.',
+    tech: ['Flask', 'MSSQL', 'JavaScript'],
+    color: '#7c3aed',
+    icon: '🏫',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 6,
+    title: 'Wi-Fi Hotspot Billing System',
+    category: 'Web',
+    description: 'A voucher-based billing system with a captive portal for a two-location hostel WiFi business, integrating Paystack payments and Omada network controllers.',
+    tech: ['Node.js', 'Express', 'Neon Postgres', 'Paystack'],
+    color: '#0d9488',
+    icon: '📶',
+    github: 'https://github.com/nyodoi-dev',
+  },
+  {
+    id: 7,
     title: 'Construction Management System',
     category: 'Web',
     description: 'A group project (Group 18) built to help construction teams track work in one place — projects, tasks, resources, team members, suppliers, clients, equipment, budgets, and invoicing.',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
     color: '#2554e0',
     icon: '🏗',
-    github: 'https://github.com/ce-nodoi-yeboah5123-hub',
+    github: 'https://github.com/nyodoi-dev',
   },
   {
-    id: 2,
-    title: 'School Management System',
-    category: 'Web',
-    description: 'A lightweight class management system for teachers, running on XAMPP/WAMP with no external dependencies — student management, daily attendance, exam and assignment marks, automated report generation, and a class-statistics dashboard.',
-    tech: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
-    color: '#7c3aed',
-    icon: '🏫',
-    github: 'https://github.com/ce-nodoi-yeboah5123-hub',
+    id: 8,
+    title: 'Dream House VR',
+    category: 'VR / WebXR',
+    description: 'A fully immersive WebVR walkthrough of a 5-bedroom villa — furnished rooms, animated pool water physics, a dynamic day-night cycle, and click-to-teleport navigation.',
+    tech: ['A-Frame', 'WebXR', 'JavaScript'],
+    color: '#9333ea',
+    icon: '🕶',
+    github: 'https://github.com/nyodoi-dev',
   },
 ];
 
@@ -38,7 +98,7 @@ export default function Projects() {
           Featured <em>work</em>
         </h2>
         <p className="section-subtitle">
-          A selection of web applications I've built using PHP, MySQL, and Bootstrap.
+          A selection of web, machine learning, and VR projects I've built.
         </p>
 
         <div className="projects__grid">

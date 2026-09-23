@@ -23,9 +23,10 @@ export default function About() {
                 usable interface.
               </p>
               <p>
-                My work centers on PHP, MySQL, and Bootstrap, paired with JavaScript,
-                to build systems that solve real, everyday problems — from tracking
-                construction projects and budgets to managing student attendance and grades.
+                My work spans web development (PHP, Flask, Node.js), machine learning
+                (Python, YOLO, computer vision), and VR/embedded systems (A-Frame,
+                8051 Assembly) — building systems that solve real, everyday problems,
+                from crop disease detection to transport navigation to hostel management.
               </p>
               <p>
                 Currently pursuing my degree in software engineering, I'm actively looking
@@ -70,7 +71,7 @@ export default function About() {
                 <span className="about__card-key">const</span>
                 <span className="about__card-var"> stack</span>
                 <span className="about__card-op"> = </span>
-                <span className="about__card-str">["PHP", "MySQL", "Bootstrap", "JS"]</span>
+                <span className="about__card-str">["Python", "PHP", "Node.js", "JS"]</span>
               </div>
               <div className="about__card-row">
                 <span className="about__card-key">const</span>
