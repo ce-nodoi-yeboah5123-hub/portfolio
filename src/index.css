@@ -14,8 +14,8 @@
   --text-muted: #94a0b8;
   --border: rgba(18, 23, 43, 0.09);
   --border-hover: rgba(37, 84, 224, 0.35);
-  --font-display: 'Cormorant Garamond', serif;
-  --font-body: 'Outfit', sans-serif;
+  --font-display: 'Kedebideri', sans-serif;
+  --font-body: 'Kedebideri', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
 
@@ -105,3 +105,6 @@ section { position: relative; z-index: 1; }
 a { color: inherit; text-decoration: none; }
 button { cursor: pointer; border: none; background: none; font-family: inherit; }
 img { max-width: 100%; }
+
+
+
