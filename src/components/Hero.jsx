@@ -125,8 +125,8 @@ export default function Hero() {
         </div>
 
         <p className="hero__bio animate-fadeInUp" style={{ animationDelay: '0.8s', opacity: 0 }}>
-          I design and build full-stack web applications — from relational database
-          schemas to clean, responsive interfaces — using PHP, MySQL, Bootstrap, and
+          I design and build full-stack web applications from relational database
+          schemas to clean, responsive interfaces, using PHP, MySQL, Bootstrap, and
           JavaScript. I enjoy turning everyday problems into practical, working systems.
         </p>
 

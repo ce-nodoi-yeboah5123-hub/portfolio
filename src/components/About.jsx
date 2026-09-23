@@ -18,8 +18,8 @@ export default function About() {
             </h2>
             <div className="about__body">
               <p>
-                I'm Nana Yaw, a software engineering student who enjoys building complete,
-                practical web applications — from the database schema up to a clean,
+                I'm Nana Yaw, a Computer Science And Engineering student, who enjoys building complete,
+                practical web applications: from the database schema up to a clean,
                 usable interface.
               </p>
               <p>
@@ -29,7 +29,7 @@ export default function About() {
                 from crop disease detection to transport navigation to hostel management.
               </p>
               <p>
-                Currently pursuing my degree in software engineering, I'm actively looking
+                Currently pursuing my degree in Computer Science And engineering, I'm actively looking
                 for internship opportunities and freelance projects where I can keep
                 building and growing as an engineer.
               </p>
@@ -37,10 +37,10 @@ export default function About() {
 
             <div className="about__highlights">
               {[
-                { icon: '🎓', label: 'Education', value: 'Software Engineering Student' },
+                { icon: '🎓', label: 'Education', value: 'Computer Science And Engineering' },
                 { icon: '📍', label: 'Location', value: 'Ghana' },
                 { icon: '💼', label: 'Status', value: 'Open to Opportunities' },
-                { icon: '🚀', label: 'Focus', value: 'Full-Stack Web Development' },
+                { icon: '🚀', label: 'Focus', value: 'Full-Stack Web Development | DevOps ' },
               ].map(({ icon, label, value }) => (
                 <div key={label} className="about__highlight">
                   <span className="about__highlight-icon">{icon}</span>
